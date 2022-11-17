@@ -1,1 +1,1 @@
-​
+look at the ELIF statement clearly becuase if there is nothing in the stack then there will be an error sayng stack is empty SO here you can see that [elif ans] statement checks if the stack not is not empty and then tries to pop if any
