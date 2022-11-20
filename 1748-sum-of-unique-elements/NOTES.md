@@ -1,1 +1,1 @@
-​
+using if conditon while calculating frequency instead of get() method improves efficency greatly
