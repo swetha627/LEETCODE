@@ -5,10 +5,10 @@ class Solution:
         for i in nums:
             if i in d:
                 d[i]+=1
+                if d[i]==n:
+                    return i
             else:
                 d[i]=1
-        for k,v in d.items():
-            if v==n:
-                return k
+        
         
         
