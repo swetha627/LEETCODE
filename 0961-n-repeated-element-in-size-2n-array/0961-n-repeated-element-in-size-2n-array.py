@@ -3,7 +3,10 @@ class Solution:
         n=len(nums)//2
         d={}
         for i in nums:
-            d[i]=d.get(i, 0)+1
+            if i in d:
+                d[i]+=1
+            else:
+                d[i]=1
         for k,v in d.items():
             if v==n:
                 return k
